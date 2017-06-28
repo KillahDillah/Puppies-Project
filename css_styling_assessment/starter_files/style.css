@@ -11,6 +11,10 @@ body > div {
 div section {
 	font-family: sans-serif;
 	color: black;
+	border-bottom: solid;
+	border-color: #eee;
+	border-width: 5px;
+	padding-bottom: 30px
 }
 
 body {
@@ -43,19 +47,8 @@ h2 {
 }
 
 li ul {
-	font-style: bold;
+	font-weight: 700;
 	width: 50px
-}
-
-ul {
-	border-bottom: solid;
-	border-color: #eee;
-	border-width: 5px;
-	padding-bottom: 30px
-}
-
-section {
-	font-size: 1em;
 }
 
 p a {
@@ -85,7 +78,7 @@ table {
 }
 
 th, td {
-	border:1px solid #000;
+	border:1px solid #1fabe5;
 }
 
 tbody tr td:nth-child(2) {
@@ -102,7 +95,38 @@ td img {
 	width:50px;
 }
 
-div > 
+
+textarea {
+	border: solid;
+	border-width: 2px;
+	border-color: #1fabe5; 
+	margin: 5px;
+	font-size: 12px;
+}
+
+.name {
+	color: white;
+	padding:20px;
+	background-color: #ff8523;
+	border-radius: 5px;
+	width: 500px;
+	margin: 20px;
+}
+
+form {
+	background:#eee;
+	padding: 5px;
+}
+
+.city_container {
+	font-weight: bold;
+	margin: 20px;
+}
+
+.bio {
+	font-weight: bold;
+	margin: 20px;
+}
 
 /*
 font info:
