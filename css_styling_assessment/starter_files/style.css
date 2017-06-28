@@ -1,0 +1,120 @@
+
+
+
+body > div {
+	background-color: white;
+	border-style: solid;
+	color: #ffd24a;
+	border-width: 1px;
+}
+
+div section {
+	font-family: sans-serif;
+	color: black;
+}
+
+body {
+	background-color: rgb(131, 149, 159);
+}
+
+body > div {
+	width:800px;
+	margin:20px auto;
+}
+
+h3 {
+	color: #1fabe5;
+}
+
+#site_header {
+	background-color: #ff8523;
+	padding-bottom: 20px;
+}
+
+#page_content {
+	padding: 10px;
+	border: 0px;
+}
+
+
+h2 {
+	font-size: 1.5em;
+	color: #1fabe5;
+}
+
+li ul {
+	font-style: bold;
+	width: 50px
+}
+
+ul {
+	border-bottom: solid;
+	border-color: #eee;
+	border-width: 5px;
+	padding-bottom: 30px
+}
+
+section {
+	font-size: 1em;
+}
+
+p a {
+	color: #1fabe5;
+}
+
+nav a {
+	border-style: solid;
+	color: white;
+	border-width: 1px;
+	padding: 5px 20px;
+	text-decoration: none;
+	border-radius:5px;
+	font-weight:400;
+	margin:0 5px;
+}
+
+#logo {
+	display: block;
+	padding: 20px 10px;
+
+}
+
+table {
+	border:1px solid #000;
+	border-collapse:collapse;
+}
+
+th, td {
+	border:1px solid #000;
+}
+
+tbody tr td:nth-child(2) {
+	text-align:center;
+}
+
+thead td{
+	background-color: #1fabe5;
+	padding: 20px;
+	color:white;
+}
+
+td img {
+	width:50px;
+}
+
+div > 
+
+/*
+font info:
+    family - Helvetica, Arial, sans-serif
+    line-height - 1.6
+
+
+colors:
+    light gray - ##eee
+    gray - #dddddd
+    yellow - #ffd24a
+    orange - #ff8523
+    blue - #1fabe5
+    dark blue - #046c97
+*/
